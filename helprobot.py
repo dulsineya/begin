@@ -5,7 +5,7 @@ import psutil
 import shutil
 import sys
 import random
-
+g=8
 def rand_dupl(dirname):
     file_list = os.listdir(dirname)
     b = len(file_list)
